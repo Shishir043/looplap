@@ -1,0 +1,137 @@
+/* variable-area======================= */
+$body-bg:#333;
+$font-color:#fff;
+$primary-color:#008ed6;
+$icon-font-size:30px;
+$radious:5px;
+
+*{
+    scroll-behavior: smooth;
+  
+}
+.home-header-area{
+    background: $body-bg;
+    color:$font-color;
+}
+
+
+
+
+/* navigation bar style start here========================= */
+.navbar{
+    background:#292b2c;
+    opacity:0.7;
+    border-bottom:3px solid $primary-color;
+}
+/* navigation bar style end here========================= */
+
+#home-section-top{
+    background-image: url('../img/desk.jpeg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .dark-overlay{
+        background:rgba(0,0,0,0.7);
+    }
+
+    .fas{
+        background:#fff;
+        color:$primary-color;
+        font-size:$icon-font-size;
+        padding:4px;
+        border-radius:5px;
+    }
+    .card-form{
+        opacity: .8;
+    }
+    .home-inner{
+        padding-top:150px;
+        padding-bottom:100px;
+    }
+}
+/* home section area end here===== */
+/* explore section start here====== */
+
+#explore-section-top {
+    
+    .explore-top{
+    color:$font-color;
+    font-size: 20px;
+    padding-top:60px;
+    padding-bottom: 30px;
+    background-color: #333;    
+    }
+}
+p{
+    font-weight: 200;
+}
+
+#explore-bottom{
+
+    .fas{
+        font-size: $icon-font-size;
+        color:$font-color;
+        background-color: #333;
+        padding:4px;
+        border-radius: $radious;
+        
+    }
+}
+
+
+
+#creat-bottom{
+    color:$font-color;
+    background-color: #212529;
+    .fas{
+        font-size: $icon-font-size;
+        padding:4px;
+        background-color: #fff;
+        color:$primary-color;
+        border-radius: $radious;
+    }
+}
+
+#share-bottom{
+    
+    .fas{
+        padding:4px;
+        color:#ffff;
+        background-color: #333;
+        font-size: $icon-font-size;
+        border-radius: $radious;
+
+    }
+}
+#bottom{
+    color:$font-color;
+}
+/* explore section end here====== */
+@media(max-width:768px){
+    #home-section-top h1{
+        font-size: 36px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query setup============ */
+
+
